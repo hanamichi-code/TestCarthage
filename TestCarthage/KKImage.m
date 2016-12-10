@@ -10,4 +10,8 @@
 
 @implementation KKImage
 
+- (CGFloat)height {
+    return 100;
+}
+
 @end

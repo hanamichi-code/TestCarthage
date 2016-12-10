@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		CDF385CB1DFBB10200EEB55E /* TestCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF385C91DFBB10200EEB55E /* TestCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDF385D41DFBB13100EEB55E /* KKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF385D21DFBB13100EEB55E /* KKImage.m */; };
-		CDF385D71DFBB14600EEB55E /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF385D51DFBB14600EEB55E /* UIImage+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDF385D81DFBB14600EEB55E /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF385D61DFBB14600EEB55E /* UIImage+Color.m */; };
 		CDF385D91DFBB21600EEB55E /* KKImage.m in Headers */ = {isa = PBXBuildFile; fileRef = CDF385D21DFBB13100EEB55E /* KKImage.m */; };
-		CDF385DB1DFBB23D00EEB55E /* KKImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF385D11DFBB13100EEB55E /* KKImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDF385DC1DFBB24900EEB55E /* UIImage+Color.m in Headers */ = {isa = PBXBuildFile; fileRef = CDF385D61DFBB14600EEB55E /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +22,7 @@
 		CDF385D21DFBB13100EEB55E /* KKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKImage.m; sourceTree = "<group>"; };
 		CDF385D51DFBB14600EEB55E /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		CDF385D61DFBB14600EEB55E /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		CDF385DF1DFBD02800EEB55E /* TestCarthage-swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestCarthage-swift.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +61,7 @@
 				CDF385CA1DFBB10200EEB55E /* Info.plist */,
 				CDF385D51DFBB14600EEB55E /* UIImage+Color.h */,
 				CDF385D61DFBB14600EEB55E /* UIImage+Color.m */,
+				CDF385DF1DFBD02800EEB55E /* TestCarthage-swift.h */,
 			);
 			path = TestCarthage;
 			sourceTree = "<group>";
@@ -73,8 +73,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF385DB1DFBB23D00EEB55E /* KKImage.h in Headers */,
-				CDF385D71DFBB14600EEB55E /* UIImage+Color.h in Headers */,
 				CDF385D91DFBB21600EEB55E /* KKImage.m in Headers */,
 				CDF385DC1DFBB24900EEB55E /* UIImage+Color.m in Headers */,
 				CDF385CB1DFBB10200EEB55E /* TestCarthage.h in Headers */,
@@ -309,6 +307,7 @@
 				CDF385D01DFBB10200EEB55E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
