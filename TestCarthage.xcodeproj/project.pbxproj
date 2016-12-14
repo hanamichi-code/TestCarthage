@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDCD583A1E016ED000A21121 /* KKImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF385D11DFBB13100EEB55E /* KKImage.h */; };
+		CDCD583B1E016ED000A21121 /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF385D51DFBB14600EEB55E /* UIImage+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDF385CB1DFBB10200EEB55E /* TestCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF385C91DFBB10200EEB55E /* TestCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDF385D41DFBB13100EEB55E /* KKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF385D21DFBB13100EEB55E /* KKImage.m */; };
 		CDF385D81DFBB14600EEB55E /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF385D61DFBB14600EEB55E /* UIImage+Color.m */; };
-		CDF385D91DFBB21600EEB55E /* KKImage.m in Headers */ = {isa = PBXBuildFile; fileRef = CDF385D21DFBB13100EEB55E /* KKImage.m */; };
-		CDF385DC1DFBB24900EEB55E /* UIImage+Color.m in Headers */ = {isa = PBXBuildFile; fileRef = CDF385D61DFBB14600EEB55E /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,6 @@
 		CDF385D21DFBB13100EEB55E /* KKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKImage.m; sourceTree = "<group>"; };
 		CDF385D51DFBB14600EEB55E /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		CDF385D61DFBB14600EEB55E /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
-		CDF385DF1DFBD02800EEB55E /* TestCarthage-swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestCarthage-swift.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +60,6 @@
 				CDF385CA1DFBB10200EEB55E /* Info.plist */,
 				CDF385D51DFBB14600EEB55E /* UIImage+Color.h */,
 				CDF385D61DFBB14600EEB55E /* UIImage+Color.m */,
-				CDF385DF1DFBD02800EEB55E /* TestCarthage-swift.h */,
 			);
 			path = TestCarthage;
 			sourceTree = "<group>";
@@ -73,9 +71,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF385D91DFBB21600EEB55E /* KKImage.m in Headers */,
-				CDF385DC1DFBB24900EEB55E /* UIImage+Color.m in Headers */,
 				CDF385CB1DFBB10200EEB55E /* TestCarthage.h in Headers */,
+				CDCD583B1E016ED000A21121 /* UIImage+Color.h in Headers */,
+				CDCD583A1E016ED000A21121 /* KKImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +254,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 44CZYSLT56;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -263,7 +262,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TestCarthage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = kobe.TestCarthage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -274,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 44CZYSLT56;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -281,7 +284,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TestCarthage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = kobe.TestCarthage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
