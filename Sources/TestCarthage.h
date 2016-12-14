@@ -2,12 +2,11 @@
 //  TestCarthage.h
 //  TestCarthage
 //
-//  Created by kobe on 2016/12/10.
+//  Created by kobe on 2016/12/14.
 //  Copyright © 2016年 kobe. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "KKImage.h"
 
 //! Project version number for TestCarthage.
 FOUNDATION_EXPORT double TestCarthageVersionNumber;
