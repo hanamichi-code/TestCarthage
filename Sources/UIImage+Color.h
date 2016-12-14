@@ -10,4 +10,5 @@
 
 @interface UIImage (Color)
 + (UIImage *)imageWithColor:(UIColor *)color;
++ (UIImage *)imageWithHahaColor:(UIColor *)color;
 @end

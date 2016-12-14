@@ -9,6 +9,10 @@
 #import "UIImage+Color.h"
 
 @implementation UIImage (Color)
++ (UIImage *)imageWithHahaColor:(UIColor *)color {
+    return [self imageWithColor:color];
+}
+
 + (UIImage *)imageWithColor:(UIColor *)color {
     if (!color) {
         return nil;

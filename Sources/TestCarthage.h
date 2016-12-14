@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIImage+Color.h"
 
 //! Project version number for TestCarthage.
 FOUNDATION_EXPORT double TestCarthageVersionNumber;
